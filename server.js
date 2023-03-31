@@ -83,7 +83,7 @@ io.sockets.on('connection',
 
 
     const configuration = new Configuration({
-      apiKey: "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"
+      apiKey: "YOUR_API_KEY"
       // apiKey: process.env.OPENAI_API_KEY,
     });
 
@@ -134,18 +134,6 @@ io.sockets.on('connection',
 
 
 
-    
 
 
   })
-
-
-
-
-// qustion equals new Array in bracets form... and put the ansers in this array... call the array pupmckins so I can excat... 
-
-//works
-//generate a multiple-choice trivia question, put the question in a Javascript variable "question", put the answers in the array "answers", and put the correct response in a variable "correct
-
-//works!!!
-//generate a multiple-choice trivia question as a string formatted like this: the question "n/" the answers "n/" correct response
